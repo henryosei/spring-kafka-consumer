@@ -8,8 +8,8 @@ import org.springframework.stereotype.Component;
 public class KafkaConsumer {
 
 
-    @KafkaListener(topics = "${kafka.topic}")
+    /*@KafkaListener(topics = "${kafka.topic}")
     public void listen(Message<String> topic) {
         System.out.println(topic.getPayload()  );;
-    }
+    }*/
 }
